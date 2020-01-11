@@ -1,0 +1,26 @@
+.shoppingTable{
+  padding:20px;
+  table {
+    border-collapse: collapse;
+    border:1px solid;
+  }
+  th,td{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding:$padding/2 $padding;
+  }
+  tr{
+    &:nth-child(odd) {
+      background-color: $table-second-color;
+    }
+    &:nth-child(even) {
+      background-color: $table-first-color;
+    }
+  }
+  
+  button{
+    font-size: small;
+  }
+  
+ 
+}

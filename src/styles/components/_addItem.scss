@@ -1,0 +1,14 @@
+.addItem {
+    width:85%;
+    padding:$padding;
+    display:flex;
+    justify-content: space-between;
+    select {
+        height:25px;
+        font-size: 14px;
+    }
+    input{
+        height:20px;
+    }
+    
+}
